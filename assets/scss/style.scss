@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+}
+
+figure{
+    text-align:center;
+    margin-top: 8rem;
+
+    img{
+        border: 2px solid black;
+        border-radius: 50%;
+        width:30%;
+        height: auto;
+        
+    }
+
+    p{
+        font-family: 'Kalam', cursive;
+        font-size: 1.5rem;
+    }
+
+    figcaption{
+        font-size: 1.2rem;
+    }
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/bcg5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
