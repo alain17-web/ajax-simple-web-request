@@ -11,14 +11,21 @@
     <title>ajax web request</title>
 </head>
 <body>
-    <h1>Food for thought : </h1>
-    <figure>
-        <img src="" alt="" id="photo">
-        <blockquote>
-            <p id="quote"></p>
-        </blockquote>
-        <figcaption id="author"></figcaption>
-    </figure>
+    <head>
+        <h1>Food for thought : </h1>
+    </head>
+    <main>
+        <figure>
+            <img src="" alt="" id="photo">
+            <blockquote>
+                <p id="quote"></p>
+            </blockquote>
+            <figcaption id="author"></figcaption>
+        </figure>
+        <div id="refresh">
+            <input type="button" id="button" value="More quotes" onclick="location.reload();">
+        </div>
+    </main>
     <script src="assets/js/ajax_request.js"></script>
 </body>
 </html>
